@@ -1,3 +1,5 @@
+String = "A String is a sequence of characters. Strings are immutable. This means that once you create a string, you cannot change it."
+
 chai = "Masala Chai"
 sec_chai = "  Ginger    Chai       "
 quantity = 2

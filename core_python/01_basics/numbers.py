@@ -1,3 +1,7 @@
+# Numbers in python
+# int, float, complex, bool, decimal, fraction
+
+
 x,y,z = 2,5,8
 # print(x,y,x)
 # print("gaurav")
