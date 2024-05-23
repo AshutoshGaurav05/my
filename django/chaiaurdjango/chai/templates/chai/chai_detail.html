@@ -1,0 +1,12 @@
+{% extends 'layout.html' %} {% block title %}Chai Delail Page{% endblock %}
+<!---->
+{% block content %}
+
+<h1 class="text-2xl bg-blue-600 p-2">Chai Delails Page</h1>
+<div class="p-5 rounded">
+  <img src="{{ chai.image.url }}" class="shadow-lg rounded h-[70%]" />
+  <h3 class="text-2xl font-bold">{{ chai.name }}</h3>
+  <p class="text-lg">{{ chai.description }}</p>
+  <p class="text-lg">{{ chai.price }}</p>
+</div>
+{% endblock %}
